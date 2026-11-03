@@ -198,6 +198,17 @@
           </div>
           <div class="registry">
             <article class="system-card">
+              <div class="system-id mono">SYS / AAPL-RAG</div>
+              <h3>Apple Form 10-K RAG Financial Chatbot</h3>
+              <p>A domain-specific financial RAG assistant that parses and analyzes Apple Inc.'s official SEC Form 10-K filing (FY2025) using hybrid retrieval to deliver hallucination-free financial insights.</p>
+              <ul>
+                <li>Hybrid retrieval combining FAISS (dense semantic search) and BM25 (sparse keyword match) with Reciprocal Rank Fusion (RRF) and query expansion.</li>
+                <li>Automated SEC EDGAR ETL pipeline with XBRL noise filtering, strict out-of-context guardrails, and real-time token streaming.</li>
+              </ul>
+              <div class="stack"><span>Python</span><span>LangChain</span><span>FAISS</span><span>Google Gemini</span><span>Streamlit</span></div>
+              <a href="https://apple-10k-rag-chatbot-jvrzqymrfbku57yxquvx9n.streamlit.app/" target="_blank" rel="noopener">Open app demo ↗</a>
+            </article>
+            <article class="system-card">
               <div class="system-id mono">SYS / COATNET</div>
               <h3>Corn Leaf Disease - CoAtNet-0</h3>
               <p>A hybrid deep learning model built from scratch, combining MBConv and self-attention to classify corn leaf diseases with out-of-distribution rejection.</p>
